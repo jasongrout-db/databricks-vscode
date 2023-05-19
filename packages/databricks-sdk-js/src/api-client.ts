@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import * as https from "node:https";
 import {TextDecoder} from "node:util";
-import fetch from "node-fetch-commonjs";
+import fetch from "cross-fetch";
 import {ExposedLoggers, Utils, withLogContext} from "./logging";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {context} from "./context";
